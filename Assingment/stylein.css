@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-style: italic;
+    font-size: x-large;
+}
+h2{
+    font-size-adjust: initial;
+    font-style: bold
+}
+head{
+    size: 30px;
+}
+h1{
+    font-style: bold;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 60px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, nav, section, footer {
+    padding: 25px 0;
+}
+
+header, nav {
+    size: 30px;
+    font-size: small;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-style: inherit;
+    font-size: 3em;
+}
+
+nav ul {
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff7f50;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7f50;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    color: black;
+    font-size: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
